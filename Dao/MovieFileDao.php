@@ -15,22 +15,22 @@ class MovieFileDao
 
 	private function retrieveData()
 	{
-		$movielist= array();  
+		$movielist= array();
 
-		$jsonContent= file_get_contents('https://api.themoviedb.org/3/movie/now_playing?api_key=1e5c581fb6ceaf853ff088a424f4cfcb&language=en-US&page=1', true);   
+		$jsonContent= file_get_contents('https://api.themoviedb.org/3/movie/now_playing?api_key=1e5c581fb6ceaf853ff088a424f4cfcb&language=en-US&page=1', true);
 
 		$arrayTodecode = ($jsonContent) ? json_decode($jsonContent, true) : array();
 
-		$filmArray = $arrayTodecode['results'];  
+		$filmArray = $arrayTodecode['results'];
 
 
 
-		foreach ($filmArray as $indice) 
+		foreach ($filmArray as $indice)
 		{
 
 			$movie= new Movie();
 			$movie->setId($indice['id']);
-			//$movie->set_popularity($indice['popularity']);
+			//$movie->set_popularity($indice['popularity']); //tira error, no sabemos porque
 			$movie->setVote_count($indice['vote_count']);
 			$movie->setVideo($indice['video']);
 			$movie->setPoster_path($indice['poster_path']);
