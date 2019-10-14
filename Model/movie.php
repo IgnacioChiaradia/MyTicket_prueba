@@ -133,6 +133,15 @@ class Movie{
 	public function setRelease_date($release_date){
 		$this->release_date = $release_date;
 	}
+
+    
+
+
+
+
 }
+
+
+
 
 ?>
