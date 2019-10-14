@@ -1,3 +1,1 @@
-  <?php  include(URL_VISTA . 'navbar.php') ?>
-
-
+  <?php  include(VISTA . 'navbar.php') ?>

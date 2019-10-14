@@ -10,7 +10,7 @@ define("DB_HOST", "localhost");
 
 // Constantes front
 define('ROOT',  dirname(__DIR__) . "/");
-define("URL_VISTA",  ROOT . '/View/');
+define("VISTA",  ROOT . '/View/');
 define('URL', 'http://localhost/MyTicket_prueba');
 
 //Api

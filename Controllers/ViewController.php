@@ -13,19 +13,26 @@ class ViewController
 
 	public function index()
 	{
-		include URL_VISTA . 'header.php';
-		require(URL_VISTA . "principal.php");
-		include URL_VISTA . 'footer.php';
-	} 
+		include VISTA . 'header.php';
+		require(VISTA . "principal.php");
+		include VISTA . 'footer.php';
+	}
 
 
 	public function movie()
 	{
 		$arrayMovies = $this->ControlMovies->getList();
-		include URL_VISTA . 'header.php';
-		require(URL_VISTA . "movie-list.php");
-		include URL_VISTA . 'footer.php';
-	} 
+		include VISTA . 'header.php';
+		require(VISTA . "movie-list.php");
+		include VISTA . 'footer.php';
+	}
+
+	public function login()
+	{
+		include VISTA . 'header.php';
+		require(VISTA . "login.php");
+		include VISTA . 'footer.php';
+	}
 }
 
 ?>
