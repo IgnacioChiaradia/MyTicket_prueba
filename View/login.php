@@ -24,7 +24,6 @@
     </div>
     <!-- en vez de class="btn btn-success" o class="btn btn-dark btn-block btn-lg" quedo -->
 
-  <!--  boton modal -->
 <!--Boton modal-->
 <!--    <button type="button" data-toggle="modal" data-target="#mimodal" class="btn btn-success">Consultar-modal</button> -->
     <!--Desarrollo modal-->
@@ -38,9 +37,29 @@
                 </div>
                 <!--body-->
                 <div class="modal-body">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, odio velit ex corporis accusamus
-                    vel fugit neque numquam, accusantium porro perferendis? Dolor deserunt ipsum quo tempora iste
-                    tenetur sapiente eligendi sunt voluptatem porro, labore ad quasi mollitia numquam dicta ut.
+                  <form action="" method="POST" class="login-form bg-dark-alpha p-5 text-white">
+                       <div class="form-group">
+                            <label for="user" style="font-color:rgb(0,0,0)">User Name</label>
+                            <input type="text" name="user" class="form-control form-control-lg" placeholder="Ingresar usuario">
+                       </div>
+                       <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="text" name="pass" class="form-control form-control-lg" placeholder="Ingresar constraseña">
+                       </div>
+                       <div class="form-group">
+                            <label for="">Apellido</label>
+                            <input type="text" name="user" class="form-control form-control-lg" placeholder="Ingrese su apellido">
+                       </div>
+                       <div class="form-group">
+                            <label for="">Nombre</label>
+                            <input type="text" name="user" class="form-control form-control-lg" placeholder="Ingrese su nombre">
+                       </div>
+                       <div class="form-group">
+                            <label for="">Dni</label>
+                            <input type="text" name="user" class="form-control form-control-lg" placeholder="Ingrese su dni">
+                       </div>
+                       <button class="btn btn-dark btn-block btn-lg" type="submit">Registrarse</button>
+                  </form>
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-danger" type="button" data-dismiss="modal">Cerrar</button>
