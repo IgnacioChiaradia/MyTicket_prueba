@@ -5,7 +5,7 @@
   <div style="background-color:rgb(0,0,0,0.5); margin-top:5%;">
           <div class="content">
                <header class="text-center">
-                    <h2 style="color:white">Logueo</h2>
+                    <h2 style="color:white">Ingresar</h2>
                </header>
                <form action="" method="POST" class="login-form bg-dark-alpha p-5 text-white">
                     <div class="form-group">
@@ -18,7 +18,7 @@
                     </div>
                     <button class="btn btn-success btn-block btn-lg" type="submit">Iniciar Sesión</button>
                     <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true">Logearse con facebook (a futuro)</div>
-                    <button type="button" data-toggle="modal" data-target="#mimodal" class="btn btn-success btn-block btn-lg">Registrarse</button>
+                    <button type="submit" data-toggle="modal" data-target="#mimodal" class="btn btn-success btn-block btn-lg">Registrarse</button>
                </form>
           </div>
     </div>

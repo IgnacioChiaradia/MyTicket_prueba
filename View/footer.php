@@ -7,7 +7,7 @@
     <footer>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row text-center">
           
         <div class="col-12 col-sm-3 col-xl-3">
                 <p>Unooooo</p>
