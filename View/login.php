@@ -39,13 +39,8 @@
                 <div class="modal-body">
                   <form action="" method="POST" class="login-form bg-dark-alpha p-5 text-black">
                        <div class="form-group">
-<<<<<<< HEAD
-                            <label for="user" >User Name</label>
-                            <input type="text" name="user" class="form-control form-control-lg" placeholder="Ingresar usuario">
-=======
-                            <label for="user" style="font-color:rgb(0,0,0)">Nombre usuario</label>
+                            <label for="user" >Nombre usuario</label>
                             <input type="text" name="user" class="form-control form-control-lg" placeholder="Ingresar nombre de usuario">
->>>>>>> 91a9cc46fe0fe9930619de950b6e142afd17e3d6
                        </div>
                        <div class="form-group">
                             <label for="">Contraseña</label>
