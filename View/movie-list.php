@@ -22,9 +22,6 @@
                                                   <td style="color:white"><?php echo $movie->getVote_count(); ?></td>
                                                   <td style="color:white"><?php echo $movie->getVote_count(); ?></td>
                                                   <td style="color:white"><?php echo $movie->getId(); ?></td>
-                                                  <!--<td>
-                                                       <button type="submit" name="btnRemove" class="btn btn-danger" value="<?php echo $movie->get(); ?>"> Eliminar </button>
-                                                  </td>-->
                                              </tr>
                                         <?php
                                    }
