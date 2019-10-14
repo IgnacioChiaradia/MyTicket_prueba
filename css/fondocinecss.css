@@ -1,18 +1,13 @@
 /*por que tengo que poner lo del body y lo del html?*/
 
-body, html {
-  height: 100%;
-     /* The image used */
-     background-image: url("../img/bg-cine2.png");
-  
-     /* Full height */
-     height: 100%;
-   
-     /* Center and scale the image nicely */
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+body,
+html {
+  background-image: url("../img/bg-cine2.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+
+
 }
-
-
-  

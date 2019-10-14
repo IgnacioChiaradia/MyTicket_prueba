@@ -13,9 +13,8 @@
                     </thead>
                     <tbody>
                          <?php
-                              if(isset($arrayMovies)){
+                              if(!empty($arrayMovies)){
                                    foreach($arrayMovies as $movie){
-
                                         ?>
                                              <tr>
                                                   <td style="color:white"><?php echo $movie->getTitle(); ?></td>
