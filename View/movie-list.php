@@ -1,19 +1,14 @@
-<?php
-namespace View;
-?>
+  <?php  include(URL_VISTA . 'navbar.php') ?>
 
 <main class="py-5">
      <section id="listado" class="mb-5">
           <div class="container">
-               <h2 class="mb-4">Listado de Cervezas</h2>
+               <h2 style="color:white" class="mb-4">Listado de Movies</h2>
                <table class="table bg-light-alpha"  border = 1>
                     <thead>
-                         <th>Popularity</th>
-                         <th>Vote_count</th>
-                         <th>Video</th>
-                         <th>Poster_path</th>
-                         <th> </th>
-
+                         <th style="color:white">Popularity</th>
+                         <th style="color:white">Vote_count</th>
+                         <th style="color:white">id</th>
                     </thead>
                     <tbody>
                          <?php
@@ -22,11 +17,9 @@ namespace View;
 
                                         ?>
                                              <tr>
-                                                  <td><?php echo $movie->get(); ?></td>
-                                                  <td><?php echo $movie->get(); ?></td>
-                                                  <td><?php echo $movie->get(); ?></td>
-                                                  <td><?php echo $movie->get(); ?></td>
-                                                  <td></td>
+                                                  <td style="color:white"><?php echo $movie->getVote_count(); ?></td>
+                                                  <td style="color:white"><?php echo $movie->getVote_count(); ?></td>
+                                                  <td style="color:white"><?php echo $movie->getId(); ?></td>
                                                   <!--<td>
                                                        <button type="submit" name="btnRemove" class="btn btn-danger" value="<?php echo $movie->get(); ?>"> Eliminar </button>
                                                   </td>-->

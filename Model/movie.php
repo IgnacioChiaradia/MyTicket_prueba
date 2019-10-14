@@ -134,10 +134,6 @@ class Movie{
 		$this->release_date = $release_date;
 	}
 
-    
-
-
-
 
 }
 

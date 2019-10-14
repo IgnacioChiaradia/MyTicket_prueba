@@ -30,7 +30,7 @@ class Request
          */
 
         //esto tambien tuve que agregar para que me direccione correctamente al login
-        $url = str_replace('MoviePass', '', $url);
+        $url = str_replace('MyTicket_prueba', '', $url);
 
 
 

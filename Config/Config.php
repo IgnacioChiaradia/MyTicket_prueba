@@ -11,7 +11,7 @@ define("DB_HOST", "localhost");
 // Constantes front
 define('ROOT',  dirname(__DIR__) . "/");
 define("URL_VISTA",  ROOT . '/View/');
-define('URL', 'http://localhost/MoviePass');
+define('URL', 'http://localhost/MyTicket_prueba');
 
 //Api
 //define('API','https://api.themoviedb.org/3/');
