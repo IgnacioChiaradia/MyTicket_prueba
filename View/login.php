@@ -37,13 +37,13 @@
                 </div>
                 <!--body-->
                 <div class="modal-body">
-                  <form action="" method="POST" class="login-form bg-dark-alpha p-5 text-white">
+                  <form action="" method="POST" class="login-form bg-dark-alpha p-5 text-black">
                        <div class="form-group">
-                            <label for="user" style="font-color:rgb(0,0,0)">User Name</label>
-                            <input type="text" name="user" class="form-control form-control-lg" placeholder="Ingresar usuario">
+                            <label for="user" style="font-color:rgb(0,0,0)">Nombre usuario</label>
+                            <input type="text" name="user" class="form-control form-control-lg" placeholder="Ingresar nombre de usuario">
                        </div>
                        <div class="form-group">
-                            <label for="">Password</label>
+                            <label for="">Contraseña</label>
                             <input type="text" name="pass" class="form-control form-control-lg" placeholder="Ingresar constraseña">
                        </div>
                        <div class="form-group">

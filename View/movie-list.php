@@ -3,12 +3,12 @@
 <main class="py-5">
      <section id="listado" class="mb-5">
           <div class="container">
-               <h2 style="color:white" class="mb-4">Listado de Movies</h2>
+               <h2 style="color:white" class="mb-4">Listado de peliculas</h2>
                <table class="table bg-light-alpha"  border = 1>
                     <thead>
-                         <th style="color:white">Title</th>
-                         <th style="color:white">Popularity</th>
-                         <th style="color:white">Vote_count</th>
+                         <th style="color:white">Titulo</th>
+                         <th style="color:white">Popularidad</th>
+                         <th style="color:white">Votos</th> <!-- Vote_count -->
                          <th style="color:white">id</th>
                     </thead>
                     <tbody>
