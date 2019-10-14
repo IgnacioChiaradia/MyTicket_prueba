@@ -1,5 +1,6 @@
 <?php  include(VISTA . 'navbar.php') ?>
 
+
 <main class="d-flex align-items-center justify-content-center height-100">
   <div style="background-color:rgb(0,0,0,0.5); margin-top:5%;">
           <div class="content">
@@ -16,6 +17,7 @@
                          <input type="text" name="pass" class="form-control form-control-lg" placeholder="Ingresar constraseña">
                     </div>
                     <button class="btn btn-success btn-block btn-lg" type="submit">Iniciar Sesión</button>
+                    <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true">Log with facebook</div>
                     <button type="button" data-toggle="modal" data-target="#mimodal" class="btn btn-success btn-block btn-lg">Registrarse</button>
                </form>
           </div>

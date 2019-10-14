@@ -2,7 +2,7 @@
  si se usa la caracteristica "opacity" convierte a todos los elementos en opacos-->
 <div class="barrasuperior" style="background-color:rgb(0,0,0,0.5);">
 <nav class="navbar navbar-expand-sm">
-        <a href="#" class="navbar-brand " ><img src="<?php echo URL ?>/img/PT-logofinal.png" style="height: 80px"></a>
+        <a href="<?php echo URL ?>" class="navbar-brand " ><img src="<?php echo URL ?>/img/PT-logofinal.png" style="height: 80px"></a>
         <!--el navbar-dark permite cambiar el color del boton colapsable para que destaque en el fondo oscuro/ solo hay dark y light-->
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#uno"><span
                 class="navbar-toggler-icon"></span></button>
