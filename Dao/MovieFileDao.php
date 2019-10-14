@@ -30,7 +30,7 @@ class MovieFileDao
 
 			$movie= new Movie();
 			$movie->setId($indice['id']);
-			//$movie->set_popularity($indice['popularity']); //tira error, no sabemos porque
+			$movie->setPopularity($indice['popularity']); 
 			$movie->setVote_count($indice['vote_count']);
 			$movie->setVideo($indice['video']);
 			$movie->setPoster_path($indice['poster_path']);
