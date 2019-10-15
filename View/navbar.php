@@ -13,10 +13,10 @@
                 <li class="nav-item"><a href="#" class="nav-link text-light">Precios</a></li>
                 <li class="nav-item"><a href="<?php echo URL ?>/view/movie/" class="nav-link text-light">Peliculas</a></li>
                 <li class="nav-item"><a href="<?php echo URL ?>/view/login/" class="nav-link text-light">Ingresar/Registrarse</a></li>
-                <form action="search.php" method="post" class="form-inline">
+                <!--<form action="search.php" method="post" class="form-inline">// Boton de buscar
                     <input type="text" placeholder="Buscar" class="form-control mr-sm-2">
                     <button type="submit" class="btn btn-success">Buscar</button>
-                </form>
+                </form>-->
             </ul>
         </div>
     </nav>
