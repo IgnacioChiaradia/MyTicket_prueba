@@ -1,6 +1,7 @@
   <?php include(VISTA . 'navbar.php') ?>
 
-  <main class="my-5">
+
+  <main class="my-5" ">
        <section class="mb-5">
             <div class="container-fluid">
                  <div class="row-fluid">
