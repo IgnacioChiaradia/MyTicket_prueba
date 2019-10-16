@@ -17,11 +17,7 @@
             <div class="container-fluid">
                  <div class="row">
                       <div class="col-4  my-5">
-<<<<<<< HEAD
                            <img src="https://image.tmdb.org/t/p/w500/<?php $movie->getPoster_path() ?>" alt=<?php $movie->getTitle() ?> class="img-fluid rounded">
-=======
-                           <img src="https://image.tmdb.org/t/p/w500/<?php echo $movie->getPoster_path() ?>" alt= <?$movie->getTitle()?> class="img-fluid rounded">
->>>>>>> 0af6f9329f60e194dea03e8854bee35afca7c4a5
                       </div>
                       <div class="col-8  my-5">
                            <table class="table">
