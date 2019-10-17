@@ -7,12 +7,12 @@
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#uno"><span
                 class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse ml-auto" id="uno">
-            <ul class="navbar-nav ml-auto font-weight-bold" style="font-size: 1.2em;margin-right:5px;"  >                
+            <ul class="navbar-nav ml-auto font-weight-bold" style="font-size: 1.2em;margin-right:5px;"  >
                 <li class="nav-item"><a href="#" class="nav-link text-light">Cartelera</a></li>
                 <li class="nav-item"><a href="#" class="nav-link text-light">Horarios</a></li>
                 <li class="nav-item"><a href="#" class="nav-link text-light">Precios</a></li>
-                <li class="nav-item"><a href="<?php echo URL ?>/view/movie/" class="nav-link text-light">Peliculas</a></li>
-                <li class="nav-item"><a href="<?php echo URL ?>/view/login/" class="nav-link text-light">Ingresar/Registrarse</a></li>
+                <li class="nav-item"><a href="<?php echo URL ?>/View/movie/" class="nav-link text-light">Peliculas</a></li>
+                <li class="nav-item"><a href="<?php echo URL ?>/View/login/" class="nav-link text-light">Ingresar/Registrarse</a></li>
                 <!--<form action="search.php" method="post" class="form-inline">// Boton de buscar
                     <input type="text" placeholder="Buscar" class="form-control mr-sm-2">
                     <button type="submit" class="btn btn-success">Buscar</button>

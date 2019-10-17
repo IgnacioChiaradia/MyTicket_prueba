@@ -1,4 +1,4 @@
-<?php namespace model;
+<?php namespace Models;
 
 class Movie{
     private $popularity;

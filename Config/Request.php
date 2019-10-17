@@ -14,7 +14,7 @@ class Request
         $requestMethod = $this->getRequestMethod();
 
         $url = filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_SANITIZE_URL);
-        
+
 
         /**
          * Apache:

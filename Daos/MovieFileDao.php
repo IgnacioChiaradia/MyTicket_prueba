@@ -1,7 +1,7 @@
 <?php
-namespace Dao;
+namespace Daos;
 
-use Model\Movie as Movie;
+use Models\Movie as Movie;
 
 class MovieFileDao
 {
@@ -30,7 +30,7 @@ class MovieFileDao
 
 			$movie= new Movie();
 			$movie->setId($indice['id']);
-			$movie->setPopularity($indice['popularity']); 
+			$movie->setPopularity($indice['popularity']);
 			$movie->setVote_count($indice['vote_count']);
 			$movie->setVideo($indice['video']);
 			$movie->setPoster_path($indice['poster_path']);

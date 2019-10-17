@@ -1,7 +1,7 @@
 <?php
 	namespace Controllers;
 
-	use \Dao\MovieFileDao as MovieFileDao;
+	use \Daos\MovieFileDao as MovieFileDao;
 
 	class MovieController
 	{
